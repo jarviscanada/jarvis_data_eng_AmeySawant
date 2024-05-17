@@ -19,48 +19,40 @@ case $cmd in
     # Check if the container is already created
     if [ $container_status -eq 0 ]; then
         echo 'Container already exists'
-        exit 1
+        exit 1	
     fi
-    
-    # Check if username and password are provided
-    if [ -z "$db_username" ] || [ -z "$db_password" ]; then
-        echo 'Username and password are required for container creation'
-        exit 1
-    fi
-    
-    # Create volume
-    docker volume create pgdata
-    
-    # Start the container with username and password environment variables
-    docker run --name jrvs-psql -e POSTGRES_USER="$db_username" -e POSTGRES_PASSWORD="$db_password" -d postgres
-    
-    # Check if container creation was successful
-    if [ $? -eq 0 ]; then
-        echo 'Container created successfully'
-    else
-        echo 'Failed to create container'
-        exit 1
-    fi
-    ;;
 
-  start|stop)
-    # Check if the container exists
+    # Check # of CLI arguments
+    if [ $# -ne 3 ]; then
+        echo 'Create requires username and password'
+        exit 1
+    fi
+  
+    # Create container
+    docker volume create pgdata
+
+    # Start the container
+    docker run --name jrvs-psql -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres
+
+    # Make sure you understand what's `$?`
+    exit $?
+    ;;
+  
+  start|stop) 
+    # Check instance status; exit 1 if container has not been created
     if [ $container_status -ne 0 ]; then
-        echo 'Container does not exist'
+        echo 'Container not found. Please create it first.'
         exit 1
     fi
 
     # Start or stop the container
     docker container $cmd jrvs-psql
-    ;;
-
+    exit $?
+    ;;	
+  
   *)
     echo 'Illegal command'
-    echo 'Usage: ./scripts/psql_docker.sh start|stop|create [db_username] [db_password]'
-    echo 'Examples:'
-    echo './scripts/psql_docker.sh create db_username db_password'
-    echo './scripts/psql_docker.sh start'
-    echo './scripts/psql_docker.sh stop'
+    echo 'Commands: start|stop|create'
     exit 1
     ;;
 esac
