@@ -1,52 +1,55 @@
 # Preferred name (Characters only)
 name: "Amey Sawant"
 # Your GitHub repo root URL
-github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_demo"
+github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant"
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am an experienced professional in the telecom industry, with a background in both test automation engineering and IT business analysis. I started my career as a Test Automation Engineer, developing and executing automated test scripts to ensure system reliability. I then transitioned to an IT Business Analyst role, where I gathered and documented requirements, facilitated stakeholder communication, and aligned project deliverables with business goals. I am proficient in SQL, Tableau, and Azure cloud services, leveraging these skills to analyze data and implement efficient solutions. My diverse experience enables me to bridge the gap between technical and business needs effectively.Currently, I am a Business Systems Analyst at Jarvis where I have improved my proficieny in various tools and technologies such as Linux, SQL, technical documentation and business analysis practices."
-# Group ur skills by level.
-  # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+summary: "I am an experienced professional in the telecom industry, with a background in both test automation engineering and IT business analysis. I started my career as a Test Automation Engineer, developing and executing automated test scripts to ensure system reliability. I then transitioned to an IT Business Analyst role, where I gathered and documented requirements, facilitated stakeholder communication, and aligned project deliverables with business goals. I am proficient in SQL, Tableau, and Azure cloud services, leveraging these skills to analyze data and implement efficient solutions. My diverse experience enables me to bridge the gap between technical and business needs effectively."
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Tableau
-    - Requirements Documentation
-    - Technical Analysis
-    - Selenium WebDriver
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-    - Azure Cloud Services
+    - "Technical Documentation"
+    - "Requirements Gathering"
+    - "Stakeholder Management "
+    - "Adaptability "
+    - "Agile"
+    - "Analytical Thinking"
+    - "Oral and verbal Communication"
   # At least 5 skills
-  Soft Skills:
-    - Stakeholder Management
-    - Communication
-    - Adaptability
+  competent:
+    - "Azure Cloud Services"
+    - " Tableau "
+    - " Selenium WebDriver "
+    - " SQL/RDBMS "
+    - "Bash Scripting"
   
   # At least 5 skills
   familiar:
-    - User Acceptance Testing
-    - Linux
-    - Docker
+    - "C/C++"
+    - "Java"
+    - "HTML"
+    - "Python"
+    - "Linus Shell Scripting"
+
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant/tree/master/linux_sql"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-      description: "Implemented a comprehensive Linux cluster monitoring solution utilizing Bash scripts to gather detailed hardware specifications and resource usage data from each server. This data is systematically collected and stored in a PostgreSQL database, which is provisioned using Docker for easy deployment and management. The monitoring scripts are scheduled to run periodically using crontab, ensuring continuous data collection. SQL queries are then employed to analyze the stored data, providing valuable insights into the cluster's performance and resource utilization."
+    description: "Implemented a comprehensive Linux cluster monitoring solution utilizing Bash scripts to gather detailed hardware specifications and resource usage data from each server. This data is systematically collected and stored in a PostgreSQL database, which is provisioned using Docker for easy deployment and management. The monitoring scripts are scheduled to run periodically using crontab, ensuring continuous data collection. SQL queries are then employed to analyze the stored data, providing valuable insights into the cluster's performance and resource utilization."
+
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
   - name: "Automated Trade Reconciliation | Tech Mahindra Innovation Labs"
     #URL is optional
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "I played a key role in the design and documentation of an automated trade reconciliation system. I meticulously crafted detailed functional and technical requirements, defining data interfaces for seamless data integration, reconciliation algorithms to ensure accurate matching of trades, and robust exception-handling workflows to manage discrepancies. Additionally, I specified comprehensive reporting capabilities to provide clear insights into the reconciliation process, enhancing the overall efficiency and reliability of trade operations."
-
+    description: " I played a key role in the design and documentation of an automated trade reconciliation system. I meticulously crafted detailed functional and technical requirements, defining data interfaces for seamless data integration, reconciliation algorithms to ensure accurate matching of trades, and robust exception-handling workflows to manage discrepancies. Additionally, I specified comprehensive reporting capabilities to provide clear insights into the reconciliation process, enhancing the overall efficiency and reliability of trade operations."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -59,29 +62,30 @@ professional_experience:
     description: "As a Business Systems Analyst at Jarvis, I am currently enrolled in a training program where I have gained hands-on experience in several key areas. I worked on a Linux cluster monitoring project, utilizing SQL for data analysis and creating comprehensive Business Requirements Documents (BRD) and System Requirements Documents (SRD). This role has enhanced my technical and analytical skills, preparing me to effectively bridge the gap between business needs and IT solutions."
   - title: "Software Engineer"
     company: "Tech Mahindra Ltd."
-    duration: "August 2019 - July 2022"
+    duration: "Aug 2019 - July 2022"
     description: "I embarked on my professional journey as a Test Automation Engineer, where I dedicated a year to ensuring the quality and reliability of telecom systems through automated testing. Leveraging my expertise, I transitioned seamlessly into the role of an IT Business Analyst within the same project. In this capacity, I honed my skills in gathering and analyzing requirements, facilitating communication between stakeholders, and aligning technical solutions with business objectives. My experience spans from meticulous testing methodologies to strategic business analysis, allowing me to contribute effectively to the seamless integration of technical solutions within the telecom domain."
-
 #List of edcuation
 education: 
   - school_name: "George Brown College"
     duration: "2022-2023"
     degree: "Post Graduation in Information Systems Business Analysis"
-    department: "Computer engineering and technology"
+    department: "Computing and technology"
     # optional
     awards_achievements: 
       - "Dean's List (2022, 2023)"
-      - "GPA: 3.7/4.0"
+      - "GPA: 3.70/4.0"
   - school_name: "University of Mumbai"
     duration: "2015-2019"
-    degree: "Bachelors of Engineering"
-    department: "Electronics Engineering"
+    degree: "Bachelor of Engineering"
+    department: "Electronics  Engineering"
+    awards_achievements:
 
 #Optional section
 others:
     #category
   - title: "Certificates"
-    #list of items"
-  - title: "Google Data Analytics Professional Certificate"
-    -title: "AZ-104: Microsoft Certified Azure Administrator Associate"
-    
+    #list of items
+    bullets:
+      - "Google Data Analytics Professional Certificate"
+      - "AZ-104: Microsoft Certified Azure Administrator Associate"
+  
