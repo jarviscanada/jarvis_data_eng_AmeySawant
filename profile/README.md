@@ -1,10 +1,83 @@
-# Jarvis Data Engineering Training
-1. [Linux Cluster Monitoring Agent (Linux and SQL)](./linux_sql) In-progress
-2. [Core Java Apps](./core_java) In-progress
-3. [Python Data Analytics](./python_data_analytics) In-progress
-4. [Spring Boot Trading REST API](./springboot) In-progress
-5. [Javascript Front End](./javascript) In-progress
-6. [Hadoop/Hive](./hadoop) In-progress
-7. [Spark/Scala](./spark) In-progress
-8. [Cloud/DevOps](./cloud_devops) In-progress
+@@ -0,0 +1,81 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Dean's List (2022, 2023)",
+        "GPA: 3.70/4.0"
+      ],
+      "degree": "Post Graduation in Information Systems Business Analysis",
+      "department": "Computing and technology",
+      "duration": "2022-2023",
+      "school_name": "George Brown College"
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "department": "Electronics  Engineering",
+      "duration": "2015-2019",
+      "school_name": "University of Mumbai"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant",
+  "highlighted_projects": [
+    {
+      "description": " I played a key role in the design and documentation of an automated trade reconciliation system. I meticulously crafted detailed functional and technical requirements, defining data interfaces for seamless data integration, reconciliation algorithms to ensure accurate matching of trades, and robust exception-handling workflows to manage discrepancies. Additionally, I specified comprehensive reporting capabilities to provide clear insights into the reconciliation process, enhancing the overall efficiency and reliability of trade operations.",
+      "name": "Automated Trade Reconciliation | Tech Mahindra Innovation Labs"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a comprehensive Linux cluster monitoring solution utilizing Bash scripts to gather detailed hardware specifications and resource usage data from each server. This data is systematically collected and stored in a PostgreSQL database, which is provisioned using Docker for easy deployment and management. The monitoring scripts are scheduled to run periodically using crontab, ensuring continuous data collection. SQL queries are then employed to analyze the stored data, providing valuable insights into the cluster's performance and resource utilization.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Amey Sawant",
+  "others": [
+    {
+      "bullets": [
+        "Google Data Analytics Professional Certificate",
+        "AZ-104: Microsoft Certified Azure Administrator Associate"
+      ],
+      "title": "Certificates"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "As a Business Systems Analyst at Jarvis, I am currently enrolled in a training program where I have gained hands-on experience in several key areas. I worked on a Linux cluster monitoring project, utilizing SQL for data analysis and creating comprehensive Business Requirements Documents (BRD) and System Requirements Documents (SRD). This role has enhanced my technical and analytical skills, preparing me to effectively bridge the gap between business needs and IT solutions.",
+      "duration": "May 2024 - Present",
+      "title": "Business Systems Analyst"
+    },
+    {
+      "company": "Tech Mahindra Ltd.",
+      "description": "I embarked on my professional journey as a Test Automation Engineer, where I dedicated a year to ensuring the quality and reliability of telecom systems through automated testing. Leveraging my expertise, I transitioned seamlessly into the role of an IT Business Analyst within the same project. In this capacity, I honed my skills in gathering and analyzing requirements, facilitating communication between stakeholders, and aligning technical solutions with business objectives. My experience spans from meticulous testing methodologies to strategic business analysis, allowing me to contribute effectively to the seamless integration of technical solutions within the telecom domain.",
+      "duration": "Aug 2019 - July 2022",
+      "title": "Software Engineer"
+    }
+  ],
+  "skills": {
+    "Soft Skills": [
+      "Stakeholder Management",
+      "Analytical thinking",
+      "Communication",
+      "Adaptability"
+    ],
+    "familiar": [
+      "C/C++",
+      "Java",
+      "HTML"
+    ],
+    "proficient": [
+      "Technical Documentation",
+      "Requirements Gathering",
+      "SQL/RDBMS",
+      "Azure Cloud Services",
+      "Agile",
+      "Tableau",
+      "Selenium WebDriver"
+    ]
+  },
+  "summary": "I am an experienced professional in the telecom industry, with a background in both test automation engineering and IT business analysis. I started my career as a Test Automation Engineer, developing and executing automated test scripts to ensure system reliability. I then transitioned to an IT Business Analyst role, where I gathered and documented requirements, facilitated stakeholder communication, and aligned project deliverables with business goals. I am proficient in SQL, Tableau, and Azure cloud services, leveraging these skills to analyze data and implement efficient solutions. My diverse experience enables me to bridge the gap between technical and business needs effectively."
+}
 
