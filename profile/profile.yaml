@@ -1,81 +1,110 @@
 # Preferred name (Characters only)
-name: "Amey Sawant"
+name: "John Smith"
 # Your GitHub repo root URL
-github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant"
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am an experienced professional in the telecom industry, with a background in both test automation engineering and IT business analysis. I started my career as a Test Automation Engineer, developing and executing automated test scripts to ensure system reliability. I then transitioned to an IT Business Analyst role, where I gathered and documented requirements, facilitated stakeholder communication, and aligned project deliverables with business goals. I am proficient in SQL, Tableau, and Azure cloud services, leveraging these skills to analyze data and implement efficient solutions. My diverse experience enables me to bridge the gap between technical and business needs effectively."
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - "Technical Documentation"
-    - "Requirements Gathering"
-    - "SQL/RDBMS"
-    - "Azure Cloud Services"
-    - "Agile"
-    - "Tableau"
-    - "Selenium WebDriver"
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
   # At least 5 skills
-  Soft Skills:
-    - "Stakeholder Management"
-    - "Analytical thinking"
-    - "Communication"
-    - "Adaptability"
-  
+  competent:
+    - Donec
+    - fermentum
+    - Donec
+    - fermentum
+    - Donec
   # At least 5 skills
   familiar:
-    - "C/C++"
-    - "Java"
-    - "HTML"
-
+    - Donec
+    - fermentum
+    - fermentum
+    - fermentum
+    - fermentum
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawant/linux_sql"
+    git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Implemented a comprehensive Linux cluster monitoring solution utilizing Bash scripts to gather detailed hardware specifications and resource usage data from each server. This data is systematically collected and stored in a PostgreSQL database, which is provisioned using Docker for easy deployment and management. The monitoring scripts are scheduled to run periodically using crontab, ensuring continuous data collection. SQL queries are then employed to analyze the stored data, providing valuable insights into the cluster's performance and resource utilization."
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Automated Trade Reconciliation | Tech Mahindra Innovation Labs"
+  - name: "Web app for resturant"
     #URL is optional
-    description: " I played a key role in the design and documentation of an automated trade reconciliation system. I meticulously crafted detailed functional and technical requirements, defining data interfaces for seamless data integration, reconciliation algorithms to ensure accurate matching of trades, and robust exception-handling workflows to manage discrepancies. Additionally, I specified comprehensive reporting capabilities to provide clear insights into the reconciliation process, enhancing the overall efficiency and reliability of trade operations."
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Business Systems Analyst"
-    company: "Jarvis Consulting Group"
-    duration: "May 2024 - Present"
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "As a Business Systems Analyst at Jarvis, I am currently enrolled in a training program where I have gained hands-on experience in several key areas. I worked on a Linux cluster monitoring project, utilizing SQL for data analysis and creating comprehensive Business Requirements Documents (BRD) and System Requirements Documents (SRD). This role has enhanced my technical and analytical skills, preparing me to effectively bridge the gap between business needs and IT solutions."
-  - title: "Software Engineer"
-    company: "Tech Mahindra Ltd."
-    duration: "Aug 2019 - July 2022"
-    description: "I embarked on my professional journey as a Test Automation Engineer, where I dedicated a year to ensuring the quality and reliability of telecom systems through automated testing. Leveraging my expertise, I transitioned seamlessly into the role of an IT Business Analyst within the same project. In this capacity, I honed my skills in gathering and analyzing requirements, facilitating communication between stakeholders, and aligning technical solutions with business objectives. My experience spans from meticulous testing methodologies to strategic business analysis, allowing me to contribute effectively to the seamless integration of technical solutions within the telecom domain."
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Tutor"
+    company: "XYZ Company"
+    duration: "2019"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+
 #List of edcuation
 education: 
-  - school_name: "George Brown College"
-    duration: "2022-2023"
-    degree: "Post Graduation in Information Systems Business Analysis"
-    department: "Computing and technology"
+  - school_name: "XYZ university"
+    duration: "2012-2016"
+    degree: "Bachelor of Applied Sciences"
+    department: "Electrical and Computer Engineering"
     # optional
     awards_achievements: 
-      - "Dean's List (2022, 2023)"
-      - "GPA: 3.70/4.0"
-  - school_name: "University of Mumbai"
-    duration: "2015-2019"
-    degree: "Bachelor of Engineering"
-    department: "Electronics  Engineering"
-  
+      - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.8/4.0"
+  - school_name: "XYZ university"
+    duration: "2016-2018"
+    degree: "Master of Engineering"
+    department: "Electrical and Computer Engineering"
+    awards_achievements: 
 
 #Optional section
 others:
@@ -83,6 +112,12 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Google Data Analytics Professional Certificate"
-      - "AZ-104: Microsoft Certified Azure Administrator Associate"
-
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
