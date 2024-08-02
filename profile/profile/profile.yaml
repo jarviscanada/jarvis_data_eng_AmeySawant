@@ -73,12 +73,13 @@ education:
     # optional
     awards_achievements: 
       - "Dean's List (2022, 2023)"
-      - "GPA: 3.70/4.0"
+      - "GPA: 3.89/4.0"
   - school_name: "University of Mumbai"
     duration: "2015-2019"
     degree: "Bachelor of Engineering"
     department: "Electronics  Engineering"
     awards_achievements:
+      - "GPA: 3.7/4.0"
   
 
 #Optional section
