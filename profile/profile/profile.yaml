@@ -5,7 +5,7 @@ github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawan
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am a professional with over 3 years of expereince in the telecom industry, with a background in both test automation engineering and IT business analysis. I started my career as a Test Automation Engineer, developing and executing automated test scripts to ensure system reliability. I then transitioned to an IT Business Analyst role, where I gathered and documented requirements, facilitated stakeholder communication, and aligned project deliverables with business goals. I am proficient in SQL, Tableau, and Azure cloud services, leveraging these skills to analyze data and implement efficient solutions. My diverse experience enables me to bridge the gap between technical and business needs effectively."
+summary: "I am a results-driven Business Systems Analyst with over 3 years of experience in the telecommunication industry.I recently completed my post-graduation in Information Systems Business Analysis from George Brown College. I am proficient in defining and documenting Software Requirements Documents (SRD) and Business Requirements Specifications (BRS) to ensure alignment between business needs and technical solutions. I have hands-on experience with Azure Cloud Services ,enabling me to optimize business processes and improve system scalability. Additionally I am skilled in data analytics using SQL to query and manipulate large data sets. I worked extensively with Snowflake to manage cloud-based data warehousing solutions, optimizing performance through efficient data modelling and storage practices. My ability to bridge the gap between business and IT allows me to deliver technical solutions that drive operational efficiency and success."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -13,26 +13,26 @@ skills:
   proficient:
     - "Technical Documentation"
     - "Requirements Gathering"
+    - "Stakeholder Management" 
     - "SQL/RDBMS"
-    - "Analytical Thinking"
-    - "Agile"
-    - "Stakeholder Management"
-    - "Communication"
+    - "Power BI"
+    - "Azure Cloud Services"
+
   # At least 5 skills
   competent:
-    - "Tableau"
-    - "Azure Cloud Services"
-    - "Selenium Webdriver"
-    - "Adaptability"
-    - "Bash Scripting"
+    - "Snowflake"
+    - "Selenium Web Driver"
+    - "Linux Scripting"
+    - "C/C++ Programming"
+    - "Azure Kubernetes"
   
   # At least 5 skills
   familiar:
-    - "C/C++"
+    - "Python"
     - "Java"
     - "HTML"
-    - "Python"
-    - "Linux shell scripting"
+    - "UI/UX"
+    - "GCP/AWS"
 
 
 # List of Jarvis projects
@@ -42,14 +42,17 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Implemented a comprehensive Linux cluster monitoring solution utilizing Bash scripts to gather detailed hardware specifications and resource usage data from each server. This data is systematically collected and stored in a PostgreSQL database, which is provisioned using Docker for easy deployment and management. The monitoring scripts are scheduled to run periodically using crontab, ensuring continuous data collection. SQL queries are then employed to analyze the stored data, providing valuable insights into the cluster's performance and resource utilization."
+  - name: "Coca-Cola sales data analytics dashboard using Power BI"
+    git_url: "https://github.com/jarvis_data_eng_AmeySawant/tree/develop/practice"
 
+    description: "I developed an interactive sales analytics dashboard using Power BI to analyse regional sales performance. I connected Power BI to a large dataset containing sales figures, customer demographics, and distribution channels from various regions. Using Power Query, I cleaned and transformed the data for accurate analysis. I then designed dynamic visualizations including sales trend analysis, regional performance comparisons, and product category breakdown."
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Automated Trade Reconciliation | Tech Mahindra Innovation Labs"
+  - name: "Azure cloud-based data warehousing | Tech Mahindra Innovation Labs"
     #URL is optional
-    description: " I played a key role in the design and documentation of an automated trade reconciliation system. I meticulously crafted detailed functional and technical requirements, defining data interfaces for seamless data integration, reconciliation algorithms to ensure accurate matching of trades, and robust exception-handling workflows to manage discrepancies. Additionally, I specified comprehensive reporting capabilities to provide clear insights into the reconciliation process, enhancing the overall efficiency and reliability of trade operations."
+    description: " I designed and implemented a data warehousing solution usinG Azure cloud for a telecom client to centralize reporting and analytics. the project involved setting up Azure Data Factory (ADF) to ingest and transform data from various sources, including on-premises databases and cloud-based APIs into an Azure SQL Data Warehouse. Azure Blob Storage was utilized for staging raw data, while Power BI was integrated to visualize the processed data."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -63,7 +66,7 @@ professional_experience:
   - title: "Software Engineer"
     company: "Tech Mahindra Ltd."
     duration: "Aug 2019 - July 2022"
-    description: "I embarked on my professional journey as a Test Automation Engineer, where I dedicated a year to ensuring the quality and reliability of telecom systems through automated testing. Leveraging my expertise, I transitioned seamlessly into the role of an IT Business Analyst within the same project. In this capacity, I honed my skills in gathering and analyzing requirements, facilitating communication between stakeholders, and aligning technical solutions with business objectives. My experience spans from meticulous testing methodologies to strategic business analysis, allowing me to contribute effectively to the seamless integration of technical solutions within the telecom domain."
+    description: "During my professional tenure, I worked on multiple projects, the major one being Sprint Telecom merger with T-Mobile USA. I was responsible for creating detailed systems documentations to facilitate integration and migration process. I collaborated with technical teams and multiple stakeholders to ensure seamless data migration, leveraging Azure Cloud Services, specifically Azure Data Factory for secure data movement between legacy systems and T-Mobiles's infrastructure. I also used Azure Logic Apps to automate workflows and streamline communication between systems."
 #List of edcuation
 education: 
   - school_name: "George Brown College"
@@ -79,7 +82,8 @@ education:
     degree: "Bachelor of Engineering"
     department: "Electronics  Engineering"
     awards_achievements:
-      - "GPA: 3.7/4.0"
+      - "GPA: 3.90/4.0"
+      - "Class rank: 3rd"
   
 
 #Optional section
@@ -90,8 +94,7 @@ others:
     bullets:
       - "Google Data Analytics Professional Certificate"
       - "AZ-104: Microsoft Certified Azure Administrator Associate"
-      - "Entry Certificate for Business Analysis"
+      - "Entry Certificate for Business Analysis (ECBA)"
 
 
-
-  
+    
