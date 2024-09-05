@@ -4,11 +4,11 @@ I am a results-driven Business Systems Analyst with over 3 years of experience i
 
 ## Skills
 
-**Proficient:** Technical Documentation, Requirements Gathering, Stakeholder Management, SQL/RDBMS, Power BI, Azure Cloud Services
+**Proficient:** Azure Data Factory, Jenkins CI/CD, Azure DevOps, SQL/RDBMS, Power BI, Docker
 
 **Competent:** Snowflake, Selenium Web Driver, Linux Scripting, C/C++ Programming, Azure Kubernetes
 
-**Familiar:** Python, Java, HTML, UI/UX, GCP/AWS
+**Familiar:** Postman, Java, HTML, UI/UX, GCP
 
 ## Jarvis Projects
 
@@ -21,7 +21,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AmeySawant
 
 
 ## Highlighted Projects
-**Azure cloud-based data warehousing | Tech Mahindra Innovation Labs**:  I designed and implemented a data warehousing solution usinG Azure cloud for a telecom client to centralize reporting and analytics. the project involved setting up Azure Data Factory (ADF) to ingest and transform data from various sources, including on-premises databases and cloud-based APIs into an Azure SQL Data Warehouse. Azure Blob Storage was utilized for staging raw data, while Power BI was integrated to visualize the processed data.
+**Azure cloud-based data warehousing | Tech Mahindra Innovation Labs**:  I designed and implemented a data warehousing solution using Azure cloud for a telecom client to centralize reporting and analytics. the project involved setting up Azure Data Factory (ADF) to ingest and transform data from various sources, including on-premises databases and cloud-based APIs into an Azure SQL Data Warehouse. Azure Blob Storage was utilized for staging raw data, while Power BI was integrated to visualize the processed data.
+
+**CI/CD pipeline implementation for a web application using Azure DevOps**: Built CI/CD piepline for a web application called TechConnect completely hosted on Azure. The pipeline was designed to automate code integration, testing and deployment processes, ensurind efficient and reliable application delivery. The web application was containerized using Docker and deployed on Azure Kubernetes Services (AKS)
 
 
 ## Professional Experiences
