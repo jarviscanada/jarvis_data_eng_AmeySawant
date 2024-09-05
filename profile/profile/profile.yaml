@@ -5,18 +5,18 @@ github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_AmeySawan
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am a results-driven Business Systems Analyst with over 3 years of experience in the telecommunication industry.I recently completed my post-graduation in Information Systems Business Analysis from George Brown College. I am proficient in defining and documenting Software Requirements Documents (SRD) and Business Requirements Specifications (BRS) to ensure alignment between business needs and technical solutions. I have hands-on experience with Azure Cloud Services ,enabling me to optimize business processes and improve system scalability. Additionally I am skilled in data analytics using SQL to query and manipulate large data sets. I worked extensively with Snowflake to manage cloud-based data warehousing solutions, optimizing performance through efficient data modelling and storage practices. My ability to bridge the gap between business and IT allows me to deliver technical solutions that drive operational efficiency and success."
+summary: "I am a results-driven Business Systems Analyst with over 3 years of experience in the IT industry.I recently completed my post-graduation in Information Systems Business Analysis from George Brown College. I am proficient in defining and documenting Software Requirements Documents (SRD) and Business Requirements Specifications (BRS) to ensure alignment between business needs and technical solutions. I have hands-on experience with Azure Cloud Services ,enabling me to optimize business processes and improve system scalability. Additionally I am skilled in data analytics using SQL to query and manipulate large data sets. I worked extensively with Snowflake to manage cloud-based data warehousing solutions, optimizing performance through efficient data modelling and storage practices. My ability to bridge the gap between business and IT allows me to deliver technical solutions that drive operational efficiency and success."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - "Technical Documentation"
-    - "Requirements Gathering"
-    - "Stakeholder Management" 
+    - "Azure Data Factory"
+    - "Azure DevOps"
+    - "Jenkins CI/CD"
     - "SQL/RDBMS"
     - "Power BI"
-    - "Azure Cloud Services"
+    - "Technical Documentation"
 
   # At least 5 skills
   competent:
@@ -28,11 +28,11 @@ skills:
   
   # At least 5 skills
   familiar:
-    - "Python"
+    - "Postman"
     - "Java"
     - "HTML"
     - "UI/UX"
-    - "GCP/AWS"
+    - "GCP"
 
 
 # List of Jarvis projects
@@ -52,7 +52,10 @@ highlighted_projects:
     #project name
   - name: "Azure cloud-based data warehousing | Tech Mahindra Innovation Labs"
     #URL is optional
-    description: " I designed and implemented a data warehousing solution usinG Azure cloud for a telecom client to centralize reporting and analytics. the project involved setting up Azure Data Factory (ADF) to ingest and transform data from various sources, including on-premises databases and cloud-based APIs into an Azure SQL Data Warehouse. Azure Blob Storage was utilized for staging raw data, while Power BI was integrated to visualize the processed data."
+    description: " I designed and implemented a data warehousing solution using Azure cloud for a telecom client to centralize reporting and analytics. the project involved setting up Azure Data Factory (ADF) to ingest and transform data from various sources, including on-premises databases and cloud-based APIs into an Azure SQL Data Warehouse. Azure Blob Storage was utilized for staging raw data, while Power BI was integrated to visualize the processed data."
+
+    name: "CI/CD pipeline implementation for an application usinf Azure DevOps"
+    description: "Built an integrated pipeline for a web application completely hosted on Azure cloud platform. The pipeline was designed to automate the code integration, testing, and deployment process, ensuring efficient, consistent and reliable application delivery. The application was containerized using Docker and deployed on Azure Kubernetes Services (AKS)."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
