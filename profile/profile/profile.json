@@ -28,7 +28,7 @@
       "name": "Azure cloud-based data warehousing | Tech Mahindra Innovation Labs"
     },
     {
-      "description": "Built CI/CD piepline for a web application called TechConnect completely hosted on Azure. The pipeline was designed to automate code integration, testing and deployment processes, ensurind efficient and reliable application delivery. The web application was containerized using Docker and deployed on Azure Kubernetes Services (AKS)",
+      "description": "Built CI/CD piepline for a web application called TechConnect completely hosted on Azure. The pipeline was designed to automate code integration, testing and deployment processes, ensuring efficient and reliable application delivery. The web application was containerized using Docker and deployed on Azure Kubernetes Services (AKS)",
       "name": "CI/CD pipeline implementation for a web application using Azure DevOps"
     }
   ],
@@ -93,5 +93,5 @@
       "Docker"
     ]
   },
-  "summary": "I am a results-driven Business Systems Analyst with over 3 years of experience in the IT  industry.I recently completed my post-graduation in Information Systems Business Analysis from George Brown College. I am proficient in defining and documenting Software Requirements Documents (SRD) and Business Requirements Specifications (BRS) to ensure alignment between business needs and technical solutions. I have hands-on experience with Azure Cloud Services ,enabling me to optimize business processes and improve system scalability. Additionally I am skilled in data analytics using SQL to query and manipulate large data sets. I worked extensively with Snowflake to manage cloud-based data warehousing solutions, optimizing performance through efficient data modelling and storage practices. My ability to bridge the gap between business and IT allows me to deliver technical solutions that drive operational efficiency and success."
+  "summary": "I am a results-driven Business Systems Analyst with over 3 years of experience in the IT  industry. I recently completed my post-graduation in Information Systems Business Analysis from George Brown College. I am proficient in defining and documenting Software Requirements Documents (SRD) and Business Requirements Specifications (BRS) to ensure alignment between business needs and technical solutions. I have hands-on experience with Azure Cloud Services ,enabling me to optimize business processes and improve system scalability. Additionally I am skilled in data analytics using SQL to query and manipulate large data sets. I worked extensively with Snowflake to manage cloud-based data warehousing solutions, optimizing performance through efficient data modelling and storage practices. My ability to bridge the gap between business and IT allows me to deliver technical solutions that drive operational efficiency and success."
 }
